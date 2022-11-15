@@ -1,1 +1,1 @@
-puts ('Ruby awaits. Now!')
+puts ('Ruby Awaits, Now!')
