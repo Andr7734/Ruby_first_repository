@@ -1,1 +1,1 @@
-puts ('Another file')
+puts ('Another new file')
