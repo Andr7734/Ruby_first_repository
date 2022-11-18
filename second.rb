@@ -1,1 +1,1 @@
-puts ('Another new file created@')
+puts ('Another new file created')
