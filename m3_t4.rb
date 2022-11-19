@@ -1,6 +1,5 @@
 # first interpretation
-x = gets.strip.to_i
-y = gets.strip.to_i
+x, y = gets.strip.to_i, gets.strip.to_i
 puts result = (x <=> y)
 
 # second interpretation
