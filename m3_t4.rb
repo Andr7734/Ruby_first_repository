@@ -24,3 +24,6 @@ def res(x, y)
     result = (x <=> y)
   end
 puts res(gets.strip.to_i, gets.strip.to_i)
+
+# sixth interpretation
+puts gets.strip.to_i <=> gets.strip.to_i
