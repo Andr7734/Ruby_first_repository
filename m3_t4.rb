@@ -20,8 +20,9 @@ def res(x, y)
 puts res(x, y)
 
 # fifth interpretation
+
 def res(x, y)
-    result = (x <=> y)
+    x <=> y
   end
 puts res(gets.strip.to_i, gets.strip.to_i)
 
