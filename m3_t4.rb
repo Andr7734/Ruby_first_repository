@@ -28,3 +28,9 @@ puts res(gets.strip.to_i, gets.strip.to_i)
 
 # sixth interpretation
 puts gets.strip.to_i <=> gets.strip.to_i
+
+# seventh interpretation
+def res(x, y)
+  result = (x == y) ? 0 : (x < y) ? -1 : 1
+end
+puts res(4, 7)
