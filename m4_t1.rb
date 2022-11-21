@@ -1,0 +1,1 @@
+unless gets.strip.to_i < 40 then puts ('Miss') end
