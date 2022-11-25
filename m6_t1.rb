@@ -1,10 +1,10 @@
 name = gets.strip.to_s
 def print_welcome(name)
-    print ("Hello, #{name}")
+    puts ("Hello, #{name}")
 end
-puts print_welcome(name)
+print_welcome(name)
 
 def rectangle_length(a, b)
-    if (a || b) > 0; puts 2 * (a + b)
+    if (a || b) > 0; print 2 * (a + b) end
 end
-print rectangle_length(-4, 7)
+rectangle_length(4, 7)
