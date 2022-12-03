@@ -13,4 +13,4 @@ def get_grade(int1, int2, int3)
         'F' 
     end
 end
-print get_grade(81, 78, 91)
+print get_grade(81, 77, 91)
