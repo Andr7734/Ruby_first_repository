@@ -30,3 +30,7 @@ def third(int, lam)
 end
 
 third(7, lambda1)
+
+# 4 int
+lambda1 = -> (int){ int.to_s.length <= 5? int.to_s.length : ("No way") }
+puts lambda1.call(7777)
