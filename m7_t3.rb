@@ -12,7 +12,7 @@ end
 length(14, lambda1)
 
 # 2 int
-lambda1 = -> (int){ int
+lambda1 = -> (int){
   if int.to_s.length <= 5
     int.to_s.length
   else ("No way") end }
@@ -20,7 +20,7 @@ lambda1 = -> (int){ int
 lambda1.call(777)
 
 # 3 int
-lambda1 = -> (int){ int
+lambda1 = -> (int){
   if int.to_s.length <= 5
     int.to_s.length
   else ("No way") end }
@@ -32,5 +32,6 @@ end
 third(7, lambda1)
 
 # 4 int
-lambda1 = -> (int){ int.to_s.length <= 5? int.to_s.length : ("No way") }
-lambda1.call(7777)
+lambda1 = -> (int){ int.to_s.length <= 5 ? int.to_s.length : ("No way") }
+
+puts lambda1.call(7777)
