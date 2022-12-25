@@ -17,4 +17,4 @@ re.match?("Some – World")
 "Do you like cats?" =~ /like/
 
 str = 22022022
-puts palindrome?(22022022)
+puts palindrome?(str)
