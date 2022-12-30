@@ -42,4 +42,3 @@ def name
 end
 name
 puts $global_var
-

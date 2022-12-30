@@ -2,4 +2,11 @@ def remove_vowels(str)
     str.delete("aeiou")
 end
 
-puts remove_vowels("Thaurss")
+remove_vowels("Thaurss")
+
+
+def palindrome(str)
+    str == str.reverse
+end
+
+palindrome("22200222")
