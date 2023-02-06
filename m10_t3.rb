@@ -10,7 +10,7 @@ class Pizza
 
     def description
         if @d == 25 || @d == 50
-            return "Піца № #{@number} (діагональ = #{@d}) містить [#{@ingredients.join(",")}]."
+            return "Піца № #{@number} (діагональ = #{@d}) містить [#{@ingredients.join("/")}]."
         else
             return "Піца № #{@number = 0} (діагональ = #{@d = 0}) містить [#{@ingredients = ""}]."
         end

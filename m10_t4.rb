@@ -17,9 +17,6 @@ class Pizza
         end
     end
 
-    def self.failInstanse
-        @@fail
-    end
 end
 
 pizza2 = Pizza.new(24)
@@ -28,3 +25,4 @@ pizza2.ingredients = ["s","d"]
 
 puts pizza2.instance_variable_get("@ingredients")
 puts pizza2.description
+puts Pizza.failInstanse

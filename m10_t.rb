@@ -1,5 +1,7 @@
 class Book
+  
     @@title = 'Book class'
+
     def initialize(title)
       @title = title
     end
@@ -13,6 +15,8 @@ class Book
     end
    end
    
+   print Book.method
+   print(' ')
    book1 = Book.new('Book1')
    print book1.method
    print(' ')
