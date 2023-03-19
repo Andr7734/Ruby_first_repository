@@ -2,4 +2,4 @@ def number(int, &w)
     w.call(int)
 end
 
-puts number(3){ |x| x**3 }
+puts number(47){ |x| x**3 }
