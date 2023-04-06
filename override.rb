@@ -14,3 +14,6 @@ class Dragon < Creature
         super
     end
 end
+
+ss = Dragon.new("Over")
+puts ss.fight

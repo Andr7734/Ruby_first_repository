@@ -10,7 +10,8 @@ words.each { |x|
   if x == redact
     print "redacted "
   else
-    print x + " " end }
+    print x + " " end 
+}
 
 =begin
 What could you do to make sure your redactor redacts a word regardless of whether it’s upper case or lower case?
