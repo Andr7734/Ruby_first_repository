@@ -12,4 +12,3 @@ end
   
 test_lambda  # Output: This line will never be reached
 test_proc    # Output: This line will be reached
-  
